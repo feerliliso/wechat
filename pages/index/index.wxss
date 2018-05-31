@@ -2,7 +2,7 @@
   opacity:0.8;
   line-height:280rpx;
   font-size: 200rpx;
-  margin-top:300rpx;
+  
   text-align:center;
 }
 .des{
@@ -11,5 +11,19 @@
   font-size: 50rpx;
   margin-top:10rpx;
   text-align:center;
-
 }
+
+.weather-wapper{
+  position:relative;
+  padding-top:174rpx;
+  padding-bottom:250rpx;
+}
+
+.weather-bg{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-1;
+  }
