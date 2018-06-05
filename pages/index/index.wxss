@@ -19,6 +19,15 @@
   padding-bottom:250rpx;
 }
 
+.font{
+  opacity:0.8;
+  line-height:90rpx;
+  font-size: 80rpx;
+  margin-top:10rpx;
+  text-align:center;
+
+}
+
 .weather-bg{
   position: absolute;
   top:0;

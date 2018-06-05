@@ -1,5 +1,6 @@
 <view class="weather-wapper">
-  <view class="temp">12</view>
-  <view class="des">晴天</view>
+  <view class="temp">{{nowtemp}}</view>
+  <view class="des">{{nowweather}}</view>
+  <view class="font">上海</view>
   <image class="weather-bg" src="/images/sunny-bg.png" mode="scalTofill"></image>
 </view>
