@@ -2,5 +2,5 @@
   <view class="temp">{{nowtemp}}</view>
   <view class="des">{{nowweather}}</view>
   <view class="font">上海</view>
-  <image class="weather-bg" src="/images/sunny-bg.png" mode="scalTofill"></image>
+  <image class="weather-bg" src="{{nowweatherbackground}}" mode="scalTofill"></image>
 </view>

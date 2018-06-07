@@ -10,7 +10,8 @@ const weatherMap = {
 Page({
 data:{
 nowtemp:'',
-nowweather:''
+nowweather:'',
+nowweatherbackground:''
 },
 
 onLoad(){
@@ -20,17 +21,17 @@ onLoad(){
      city:'上海市'
     },
     success: res=> {
-      console.log(res)
+      
       let result = res.data.result
-      console.log(result)
+     
       let temp = result.now.temp
-      console.log(temp)
+      
       let weather = result.now.weather
-      console.log(weather)
-      console.log(temp,weather)
+   
       this.setData({
         nowtemp:temp,
-        nowweather:weatherMap[weather]
+        nowweather:weatherMap[weather],
+        nowweatherbackground:'/images/'+weather+'-bg.png'
       })
     }
   })
